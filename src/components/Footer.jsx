@@ -19,19 +19,19 @@ const Footer = () => {
       <div>
         <h1 className="text-xl text-orange-300 mb-5">More on The Blog</h1>
         <ul className="text-sm flex justify-center items-start gap-5 flex-col">
-          <li>About MNTN</li>
-          <li>Contributors & Writers</li>
-          <li>Write For Us</li>
-          <li>Contact Us</li>
-          <li>Privacy Policy</li>
+          <li className="cursor-pointer">About MNTN</li>
+          <li className="cursor-pointer">Contributors & Writers</li>
+          <li className="cursor-pointer">Write For Us</li>
+          <li className="cursor-pointer">Contact Us</li>
+          <li className="cursor-pointer">Privacy Policy</li>
         </ul>
       </div>
       <div>
         <h1 className="text-xl text-orange-300 mb-5">More on MNTN</h1>
         <ul className="text-sm flex justify-center items-start gap-5 flex-col">
-          <li>The Team</li>
-          <li>Jobs</li>
-          <li>Press</li>
+          <li className="cursor-pointer">The Team</li>
+          <li className="cursor-pointer">Jobs</li>
+          <li className="cursor-pointer">Press</li>
         </ul>
       </div>
     </div>

@@ -26,10 +26,10 @@ const Hero = () => {
             <h1 className="text-white flex justify-center items-center ">
               Follow us
               <div className=" flex mt-3 gap-3">
-                <div>
+                <div className=" cursor-pointer ">
                   <IoLogoInstagram />
                 </div>
-                <div>
+                <div className=" cursor-pointer ">
                   <IoLogoTwitter />
                 </div>
               </div>
@@ -45,17 +45,12 @@ const Hero = () => {
           </div>
           <div className="flex justify-center items-end flex-col gap-10 ">
             <img src={start} alt="" className="w-[30px]" />
-            <img src={one} alt="" className="w-[15px]" />
-            <img src={two} alt="" className="w-[15px]" />
-            <img src={three} alt="" className="w-[15px]" />
+            <img src={one} alt="" className="w-[12px]" />
+            <img src={two} alt="" className="w-[12px]" />
+            <img src={three} alt="" className="w-[12px]" />
           </div>
         </div>
-        <img
-          src={VG}
-          alt=""
-          className="mt-24 
-        "
-        />
+        <img src={VG} alt="" className="mt-24" />
       </div>
     </div>
   )

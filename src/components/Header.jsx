@@ -7,12 +7,12 @@ const Header = () => {
       <div>MNTN</div>
       <div>
         <ul className="flex justify-center items-center gap-8">
-          <li>Equipment</li>
-          <li>About us</li>
-          <li>Blog</li>
+          <li className="cursor-pointer">Equipment</li>
+          <li className="cursor-pointer">About us</li>
+          <li className="cursor-pointer">Blog</li>
         </ul>
       </div>
-      <div className="flex  items-center">
+      <div className="flex  items-center cursor-pointer">
         <RiAccountCircleLine size={20} />
         Account
       </div>
